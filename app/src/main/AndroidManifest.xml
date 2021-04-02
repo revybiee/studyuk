@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="io.studyuk" >
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/book"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/book"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNoActionBar" >
+        <activity android:name=".utils.SplashScreen" >
+        </activity>
+        <activity android:name=".view.result.ResultActivity" />
+        <activity android:name=".view.practice.PracticeActivity" />
+        <activity android:name=".view.list_bab.list_video.ListVideoActivity" />
+        <activity android:name=".view.list_bab.list_sub_bab.ListSubBabActivity" />
+        <activity android:name=".view.list_bab.ListBabActivity" />
+        <activity
+            android:name=".view.main.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".view.register.RegisterActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".view.welcome_screen.WelcomeActivity"
+            android:theme="@style/AppThemeNoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.login.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+    </application>
+
+</manifest>

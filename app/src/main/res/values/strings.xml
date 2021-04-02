@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Studyuk!</string>
+    <string name="text_welcome_to_app">Selamat datang di StudyYuk!</string>
+    <string name="text_desc">Nikmati kemudahan belajar dengan menggunakan video yang interaktif dan materi PDF yang bisa dinikmati oleh SD, SMP, dan SMA/SMK</string>
+    <string name="text_btn_next">Selanjutnya</string>
+    <string name="text_login_account">Login dengan akun studyuk</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_login_with">Atau login dengan</string>
+    <string name="text_google">Google</string>
+    <string name="text_facebook">Facebook</string>
+    <string name="text_register">Belum punya akun ?</string>
+    <string name="text_register_acc">Daftar</string>
+    <string name="text_name">Nama Lengkap</string>
+    <string name="text_email">Email</string>
+    <string name="text_retype">Re-Type Password</string>
+    <string name="text_class">Kelas ( 1 - 12 )</string>
+    <string name="text_register_">Daftar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="text_profile">Profil</string>
+    <string name="title_courses">Materi</string>
+    <string name="text_dashboard_search">Apa yang ingin kamu pelajari hari ini? cari dibawah ini</string>
+    <string name="text_search_hint">Cari Materi</string>
+    <string name="text_new_courses">Materi Baru</string>
+    <string name="text_list_course">Daftar Materi</string>
+</resources>
